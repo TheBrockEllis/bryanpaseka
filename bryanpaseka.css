@@ -1,0 +1,207 @@
+html, body {
+  height: 100%;
+}
+
+body {
+    background-color: #EEE9E9;
+}
+
+.container{
+    min-height: 100%;
+    clear: both;
+}
+
+/*INDEX*/
+
+#index_h1 {
+    margin-top: 2%;
+    text-align: center;
+    color: #303030;
+    text-shadow: 0px 2px 2px #fff;
+}
+
+#index_h3 {
+    text-align: center;
+    color: #9c9c9c;
+    text-shadow: 0px 1px 1px #fff;
+}
+
+img#headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+div#male {
+    text-align: right;
+}
+
+div#female {
+    text-align: left;
+}
+
+.icon-male {
+    background-image: url("male.png");
+    background-position: center center;
+}
+
+.icon-female {
+    background-image: url("female.png");
+    background-position: center center;
+}
+
+.btn-female {
+  background-color: hsl(332, 100%, 30%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0076", endColorstr="#990047");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#ff0076), to(#990047));
+  background-image: -moz-linear-gradient(top, #ff0076, #990047);
+  background-image: -ms-linear-gradient(top, #ff0076, #990047);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff0076), color-stop(100%, #990047));
+  background-image: -webkit-linear-gradient(top, #ff0076, #990047);
+  background-image: -o-linear-gradient(top, #ff0076, #990047);
+  background-image: linear-gradient(#ff0076, #990047);
+  border-color: #990047 #990047 hsl(332, 100%, 25%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+  -webkit-font-smoothing: antialiased;
+}
+
+/*FIGHT*/
+span#h1fight{
+    color: #900000;
+}
+
+img#boxer{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    /*margin-top: -135px;*/
+    margin-left: -200px;
+    z-index: -100;
+}
+
+.lefthand {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-top: 22px;
+    margin-left: -157px;
+    z-index: 2;
+    padding: 4px;
+}
+
+.punch_left {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: 200px;
+    margin-top: -35px;
+    margin-left: -165px;
+    z-index: 100;
+}
+
+.righthand {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-top: 3px;
+    margin-left: 2px;
+    z-index: 2;
+    padding: 4px;
+}
+
+.punch_right {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: 200px;
+    margin-top: -50px;
+    margin-left: -35px;
+    z-index: 100;
+}
+
+/*LOVE*/
+
+span#h1love{
+    color: #FF0000;
+}
+
+img#flowerman{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    /*margin-top: -135px;*/
+    margin-left: -133px;
+    z-index: -100;
+}
+
+img.flowers{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-top: 94px;
+    margin-left: -123px;
+    z-index: 100;
+    padding: 4px;
+}
+
+img.flowers_give{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: 250px;
+    margin-top: 30px;
+    margin-left: -155px;
+    z-index: 100;
+}
+
+/*CONTACT*/
+#myCarousel{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact_icon{
+    text-align: center;
+    color: #9c9c9c;
+    text-shadow: 0px 1px 1px #fff;
+}
+
+.contact_image{
+    padding-right: 15px;
+}
+
+.contact_hover{
+    color: black;
+    font-size: 18px;
+}
+
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+    color: #9c9c9c;
+}
+
+.footer{
+    height:40px;
+    margin-top:-40px;
+}
+
+.home {
+    text-align: center;
+}
+
+.areyousure {
+    display: block;
+    text-align: center;
+}
+
+#home_contact {
+    margin-top: 27px;
+}
+
+.contact {
+    text-align: center;
+}
